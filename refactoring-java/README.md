@@ -13,13 +13,13 @@ You can hand in the result any way you feel (git patch, pull-request or ZIP-file
 Note: the Git history must be included.
 
 
-## Please add the below mentioned jar file into the build path
-commons-lang3-3.11
-##Refactoring-java coed responsibility
 
-1.In Main.java I have covered four different case of receipt
 
-2. package 
+##Refactoring-java code details
+
+1.In Main.java I have covered four different case of receipt data. All cases mentioned in code.
+
+2. package description
 com.movie.rental.service - This package having three java files. All these java provides services for receipt creation.
 com.movie.rental.exception - This package having custom exception class and it is provide messages to get the valid input.
 com.movie.rental.dto - This package having pojo file. Every pojo file is to hold the data.
@@ -28,11 +28,13 @@ com.movie.rental.constants - This package is having constant java and holding th
 
 3.Properties
 I have a property file and it is used to get the constant values.
-we change the values easily and avoid to touch the code when ypur going to change the value.
+we can change the values easily and avoid touching the code If you want to change the value.
+4. Please add the below mentioned jar file into the build path.
+commons-lang3-3.11.jar
 
 Features:
-1. Maintain the SOLID principles in this java test.
-2. Using custom exception to get valid inputs and maintain program flow. 
+1. Maintained the SOLID principles in this java test.
+2. Using custom exception to get valid inputs and maintained program flow. 
 
 
 
